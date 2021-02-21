@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t weijun0827/docker-react-test -f Dockerfile.dev .
